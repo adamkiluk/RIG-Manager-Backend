@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'RIG-manager'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F220CDB7544240BE9CE9848BFDA14891 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E1F3B3BC69CD4F49965C0C6900F8409A }}
           package: .
