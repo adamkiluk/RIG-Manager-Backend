@@ -54,11 +54,3 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B883697351CF47DD902E78AD0089B359 }}
           package: .
-
-env:
-  global:
-    - PORT=4000
-    - MONGODB_URL=mongodb://rigmanagermongodb:6vWhV5CgZhLPeBrH0WZBsT06eSCq6pi4qlx716NBuqVVcYiEYqTkr9VGp1KuttbdvSjW4ffhsmfROif4VAKpFg==@rigmanagermongodb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@rigmanagermongodb@
-    - JWT_SECRET=thisisasamplesecret
-    - JWT_ACCESS_EXPIRATION_MINUTES=30
-    - JWT_REFRESH_EXPIRATION_DAYS=30
